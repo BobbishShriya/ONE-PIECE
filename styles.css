@@ -1,12 +1,12 @@
 /* styles.css */
 @font-face {
     font-family: 'one piece';
-    src: url('/one\ piece\ font.ttf');
+    src: url('one\ piece\ font.ttf');
 }
 
 @font-face {
     font-family: product san;
-    src: url('/Product\ Sans\ Regular.ttf');
+    src: url('Product\ Sans\ Regular.ttf');
 }
 
 * {
