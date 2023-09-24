@@ -1,12 +1,12 @@
 /* styles.css */
 @font-face {
     font-family: 'one piece';
-    src: url('one\ piece\ font.ttf');
+    src: url('/one\ piece\ font.ttf');
 }
 
 @font-face {
     font-family: product san;
-    src: url('Product\ Sans\ Regular.ttf');
+    src: url('/Product\ Sans\ Regular.ttf');
 }
 
 * {
@@ -44,7 +44,7 @@ body{
 
 #video-section {
     background-color: #000;
-    color: #fff;
+    color:burlywood;
     
    
 }
@@ -103,13 +103,13 @@ video {
     overflow: hidden;
     font-family:'one piece';
     font-size: 6vw;
-    color: rgb(212,212,212);
+    color:burlywood;
  }
 
  .textarea p{
 font-family: 'product san';
 font-size: 1vw;
-color: rgb(212,212,212);
+color:burlywood;
 margin-bottom: 1vw;
 margin-top: 1vw;
  }
@@ -143,33 +143,112 @@ margin-top: 1vw;
 }
 
 #lineone .cards:nth-child(1){
-    background-image: url(pxfuel\ \(1\).jpg);
+    background-image: url(/img/pxfuel\ \(1\).jpg);
 }
 #lineone .cards:nth-child(2){
-    background-image: url(pxfuel.jpg);
+    background-image: url(/img/pxfuel.jpg);
 }
 #lineone .cards:nth-child(3){
-    background-image: url(pxfuel\ \(2\).jpg);
+    background-image: url(/img/pxfuel\ \(2\).jpg);
 }
 #lineone .cards:nth-child(4){
-    background-image: url(pxfuel\ \(3\).jpg);
+    background-image: url(/img/pxfuel\ \(3\).jpg);
 }
 #lineone .cards:nth-child(5){
-    background-image: url(pxfuel\ \(9\).jpg);
+    background-image: url(/img/pxfuel\ \(9\).jpg);
 }
 
 #linetwo .cards:nth-child(1){
-    background-image: url(pxfuel\ \(4\).jpg);
+    background-image: url(/img/pxfuel\ \(4\).jpg);
 }
 #linetwo .cards:nth-child(2){
-    background-image: url(pxfuel\ \(5\).jpg);
+    background-image: url(/img/pxfuel\ \(5\).jpg);
 }#linetwo .cards:nth-child(3){
-    background-image: url(pxfuel\ \(6\).jpg);
+    background-image: url(/img/pxfuel\ \(6\).jpg);
 }#linetwo .cards:nth-child(4){
-    background-image: url(pxfuel\ \(7\).jpg);
+    background-image: url(/img/pxfuel\ \(7\).jpg);
 }#linetwo .cards:nth-child(5){
-    background-image: url(pxfuel\ \(8\).jpg);
+    background-image: url(/img/pxfuel\ \(8\).jpg);
 }
+
+
+
+
+#main2{
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    background-color: rgb(27,27,27);
+
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15vh;
+    width: 100%;
+    height: 90vh;
+    padding: 0vh 15vh;
+    font-family: product sans;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+}
+
+.content2 h1{
+    text-align: center;
+    color:burlywood;
+    font-family: 'one piece';
+    }
+    
+    .content2 h2{
+        text-align: center;
+        color:burlywood;
+        font-family: 'product sans';
+        }
+
+       
+   
+   
+.dots-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+
+}
+
+.dot{
+    width: 0.3vw;
+    height: 0.3vw;
+    border-radius: 50px;
+    background-color:bisque;
+}
+
+
+
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+
+}
+
+.img2{
+    width: 25vw;
+    height: 50vh;
+    background-image: url(/img/9387247.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
 
 .c-old {
     width: 100%;
