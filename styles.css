@@ -143,32 +143,32 @@ margin-top: 1vw;
 }
 
 #lineone .cards:nth-child(1){
-    background-image: url(/img/pxfuel\ \(1\).jpg);
+    background-image: url(pxfuel\ \(1\).jpg);
 }
 #lineone .cards:nth-child(2){
-    background-image: url(/img/pxfuel.jpg);
+    background-image: url(pxfuel.jpg);
 }
 #lineone .cards:nth-child(3){
-    background-image: url(/img/pxfuel\ \(2\).jpg);
+    background-image: url(pxfuel\ \(2\).jpg);
 }
 #lineone .cards:nth-child(4){
-    background-image: url(/img/pxfuel\ \(3\).jpg);
+    background-image: url(pxfuel\ \(3\).jpg);
 }
 #lineone .cards:nth-child(5){
-    background-image: url(/img/pxfuel\ \(9\).jpg);
+    background-image: url(pxfuel\ \(9\).jpg);
 }
 
 #linetwo .cards:nth-child(1){
-    background-image: url(/img/pxfuel\ \(4\).jpg);
+    background-image: url(pxfuel\ \(4\).jpg);
 }
 #linetwo .cards:nth-child(2){
-    background-image: url(/img/pxfuel\ \(5\).jpg);
+    background-image: url(pxfuel\ \(5\).jpg);
 }#linetwo .cards:nth-child(3){
-    background-image: url(/img/pxfuel\ \(6\).jpg);
+    background-image: url(pxfuel\ \(6\).jpg);
 }#linetwo .cards:nth-child(4){
-    background-image: url(/img/pxfuel\ \(7\).jpg);
+    background-image: url(pxfuel\ \(7\).jpg);
 }#linetwo .cards:nth-child(5){
-    background-image: url(/img/pxfuel\ \(8\).jpg);
+    background-image: url(pxfuel\ \(8\).jpg);
 }
 
 .c-old {
