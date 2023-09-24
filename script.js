@@ -31,3 +31,21 @@ t1
 
 
 $('.textarea h1').textillate({initialDelay: 200, in: { effect: 'fadeInUp',delayScale:1, delay: 40 } });
+
+
+
+var t5 = gsap.timeline({scrollTrigger:{
+    trigger:"#main2",
+    // markers:true,
+    start:"75% 50%",
+    end:"100% 50%",
+    scrub:6,
+    duration: 1,
+    delay:1,
+    pin:true,
+  }});
+  t5
+  .to(".img2",{
+    width: "100vw",
+    height: "100vh",
+  })
