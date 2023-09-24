@@ -12,7 +12,7 @@ t10
 
 var t1= gsap.timeline({scrollTrigger:{
     trigger:"#main",
-    markers:1,
+    // markers:1,
     start:"50% 50%",
     end:"160% 50%",
     scrub:1.5,
